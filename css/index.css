@@ -4,9 +4,11 @@ body{
     margin: 0px;
 }
 
-#titolo, .non-importante, main, footer{
+#titolo, #non-importante, main, footer{
     padding: 0px 10px;
 }
+
+
 /* stili header */
 #decorazione{
     height: 100px;
@@ -24,7 +26,7 @@ body{
     height: 30%;
 }
 
-.non-importante{
+#non-importante, #interessamenti{
     color: rgba(0, 0, 0, 0.528);
 }
 
@@ -42,13 +44,19 @@ body{
     background-color: yellow;
 }
 
+/* modifiche tabella */
+
 table thead{
     background-color: lightskyblue;
    
 }
 
+thead th{
+    text-align: left;
+}
+
 .colorato{
-    background-color: aqua;
+    background-color: rgb(11, 242, 242);
 }
 
 .modifiche-tabella{
@@ -57,7 +65,7 @@ table thead{
 }
 
 /* stili footer  */
-
+/* modifiche immagini */
 #immagine-computer{
     background-image: url(../img/monitor.jpg);
     width: 250px;
