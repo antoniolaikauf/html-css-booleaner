@@ -1,8 +1,7 @@
 /* stili generale  */
-:root{
+body{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
 }
 /* stili header */
 #decorazione{
@@ -21,7 +20,7 @@
     height: 30%;
 }
 
-#data{
+.non-importante{
     color: rgba(0, 0, 0, 0.429);
 }
 
@@ -37,4 +36,9 @@
 
 .importante{
     background-color: yellow;
+}
+
+table thead{
+    background-color: blue;
+   
 }
