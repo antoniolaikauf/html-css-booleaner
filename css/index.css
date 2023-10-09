@@ -3,10 +3,14 @@ body{
     padding: 0px;
     margin: 0px;
 }
+
+#titolo, .non-importante, main, footer{
+    padding: 0px 10px;
+}
 /* stili header */
 #decorazione{
     height: 100px;
-    background-color: blue;
+    background-color:rgba(17, 144, 199, 0.52);
     background-image: url(../img/pattern.png);
     background-size: contain;
     margin-bottom: 10px;
@@ -21,11 +25,11 @@ body{
 }
 
 .non-importante{
-    color: rgba(0, 0, 0, 0.429);
+    color: rgba(0, 0, 0, 0.528);
 }
 
 #creatore{
-    color: blue;
+    color: rgb(9, 140, 222);
 }
 
 #descrizione-foto {
@@ -39,6 +43,38 @@ body{
 }
 
 table thead{
-    background-color: blue;
+    background-color: lightskyblue;
    
+}
+
+.colorato{
+    background-color: aqua;
+}
+
+.modifiche-tabella{
+    width: 50%;
+    text-align: left;
+}
+
+/* stili footer  */
+
+#immagine-computer{
+    background-image: url(../img/monitor.jpg);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 10px 0px;
+    font-size: 30px;
+}
+
+#immagine-grafico{
+    background-image: url(../img/graph.jpg);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 30px;
 }
