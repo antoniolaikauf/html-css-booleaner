@@ -1,0 +1,30 @@
+/* stili generale  */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* stili header */
+#decorazione{
+    height: 100px;
+    background-color: blue;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    margin-bottom: 10px;
+}
+
+#decorazione div{
+    height: 50px;
+}
+
+#decorazione img{
+    height: 30%;
+}
+
+#data{
+    color: rgba(0, 0, 0, 0.429);
+}
+
+#creatore{
+    color: blue;
+}
